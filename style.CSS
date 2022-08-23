@@ -1,0 +1,78 @@
+  <style>
+    .button {
+	border: none;
+	color: black;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+    }
+
+    .name {
+	background-color: white;
+	color: black;
+	text-decoration: none;
+    }
+    
+    .button1 {
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	<!-- border: 2px solid #BCE0F0; -->
+    }
+
+    .button2 {
+	background-color: white;
+	color: black;
+    }
+
+    .button3 {
+	background-color: white;
+	color: black;
+    }
+
+    .button4 {
+	background-color: white;
+	color: black;
+    }
+
+    .button5 {
+	background-color: white;
+	color: black;
+    }
+    
+    .button1:hover {
+	background-color: none;
+	color: #00FFFF;
+    }
+
+    .button2:hover {
+	background-color: none;
+	color: #00FFFF;
+    }
+
+    .button3:hover {
+	background-color: none;
+	color: #00FFFF;
+    }
+
+    .button4:hover {
+	background-color: none;
+	color: #00FFFF;
+    }
+
+    .button5:hover {
+	background-color: none;
+	color: #00FFFF;
+    }
+    
+    .name:hover {
+	background-color: none;
+	color: #00FFFF;
+    }
+    
+  </style>

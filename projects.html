@@ -1,0 +1,155 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Digital Portfolio - Joshua Lee</title>
+  </head>
+  <div>
+  <style>
+       
+    .button {
+	border: none;
+	color: black;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family:monospace;
+	font-size: 14px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+    }
+
+    .name {
+	background-color: coral;
+	color: black;
+	text-decoration: none;
+    }
+    
+    .button1 {
+	background-color: coral;
+	color: black;
+	text-decoration: none;
+	<!-- border: 2px solid #BCE0F0; -->
+    }
+
+    .button2 {
+	background-color: coral;
+	color: black;
+    }
+
+    .button3 {
+	background-color: coral;
+	color: black;
+    }
+
+    .button4 {
+	background-color: coral;
+	color: black;
+    }
+
+    .button5 {
+	background-color: coral;
+	color: black;
+    }
+    
+    .button1:hover {
+	background-color: none;
+	color: #FFFF;
+    }
+
+    .button2:hover {
+	background-color: none;
+	color: #FFFF;
+    }
+
+    .button3:hover {
+	background-color: none;
+	color: #FFFF;
+    }
+
+    .button4:hover {
+	background-color: none;
+	color: #FFFF;
+    }
+
+    .button5:hover {
+	background-color: none;
+	color: #FFFF;
+    }
+    
+    .name:hover {
+	background-color: none;
+	color: #FFFF;
+    }
+    
+    .toolbar {
+	background-color: coral;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	
+    }
+
+    .title {
+	margin: auto;
+	background-color: coral;
+	
+	text-align: center;
+	vertical-align: middle;
+	width: 30%;
+	height: 2.5%;
+    }
+
+    .projects {
+	margin: auto;
+	background-color: coral;
+	text-align: center;
+    width: 80%;
+   
+    
+    }
+    
+  </style>
+   
+  <body style="background-color: #F8F0E3">
+    
+    <div class="toolbar">
+    <a href="" class="button name"> Joshua Lee </a>
+          <a href="https://codermerlin.com/users/joshua-lee/Digital%20Portfolio/aboutme.html" class="button button1"> About Me </a>
+    <!-- <button class="button button1">About Me</button> -->
+    <a href="https://codermerlin.com/users/joshua-lee/Digital%20Portfolio/importance.html" class="button button2"> Importance </a>
+    <!-- <button class="button button2">Importance</button> -->
+    <a href="https://codermerlin.com/users/joshua-lee/Digital%20Portfolio/classes.html" class="button button3"> Classes </a>
+    <!-- <button class="button button3">Classes</button> -->
+    <a href="https://codermerlin.com/users/joshua-lee/Digital%20Portfolio/projects.html" class="button button4"> Projects </a>
+    <!-- <button class="button button4">Projects</button> -->
+    <a href="https://codermerlin.com/users/joshua-lee/Digital%20Portfolio/whativelearned.html" class="button button5"> What I've Learned </a> 
+    
+    </div>
+    <!-- <button class="button button5">What I've Learned</button> -->
+    
+    <div class="title">
+      <h1 style="font-family:monospace">Digital Portfolio</h1>
+      </div>
+
+    <div class="projects">
+    <h1 style="font-family:monospace">Projects</h1>
+    
+    <h2 style="font-family:monospace">Concept</h2>
+    <h3 style="font-family:monospace">My ISP group decided to create our own 2d platformer game, similar to mario, using swift. </h3>
+
+    <h2 style="font-family:monospace">Motivation</h2>
+    <h3 style="font-family:monospace">Our motivation for our ISP game was that we all grew up playing 2d platformer game such as mario, so we wanted to make our own take at a platformer.</h3>
+
+    <h2 style="font-family:monospace">Code Segments + Explanations</h2>
+    <img class="character" src="https://www.linkpicture.com/q/Screen-Shot-2022-08-19-at-2.04.02-PM.png" alt="character code" width="300" heigt="300">
+    <h3 style="font-family:monospace">This code was for our character. We made an animated stick figure by implementing frames of the stick figure running into an array. Using the array we were able to have an animation cycle, making it so our character is running. We made two sets of animation cycles, one for the character moving forward and another for it moving backwards. We also made it so we have a idle frame, so our character is not just stuck in a running stance. Finally we added physics to our character by allowing it to jump. We accomplished this by using velocity.</h3>
+    <img class="lava" src="https://www.linkpicture.com/q/Screen-Shot-2022-08-19-at-2.06.09-PM.jpg" alt="lava code" width="300" height="300">
+    <h3 style="fon-family:monospace">This code was for the lava. We made our lava using a rectangle but giving it a boundingRect, allowing the computer to determine whether our character was making contact with the hit box of the lava. Once touching the bounding rect of the lava, the character would respawn at the start of the level, giving our game an obstacle.</h3>
+    <h2 style="font-family:monospace">Conclusions</h2>
+    <h3 style="font-family:monospace">Our code did not go as expected as we did not take into consideration how complex a simple 2d platformer could be. We ran into trouble with working the physics of the game as it was difficult implementing gravity to our character. We were able to persist and resolve this issue by applying what we learned in our final projects on codermerlin.</h3>
+    
+    </div>
+    <body>
+  </html>
