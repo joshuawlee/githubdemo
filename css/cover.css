@@ -1,0 +1,16 @@
+.cover {
+
+    width: 1000px;
+    height: 350px;
+    position: relative;
+    margin: 100px auto;
+    background-color: white;
+
+    text-align: center;
+    padding: 200px 0;
+    line-height: 50px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: black;
+}
