@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Digital Portfolio - Joshua Lee</title>
+    <style>
+       
+    .button {
+	border: none;
+	color: black;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: monospace;
+	font-size: 14px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+    }
+
+    .name {
+	background-color: coral;
+	color: black;
+	text-decoration: none;
+    }
+    
+    .button1 {
+	background-color: coral;
+	color: black;
+	text-decoration: none;
+	
+    }
+
+    .button2 {
+	background-color: coral;
+	color: black;
+    }
+
+    .button3 {
+	background-color: coral;
+	color: black;
+    }
+
+    .button4 {
+	background-color: coral;
+	color: black;
+    }
+
+    .button5 {
+	background-color: coral;
+	color: black;
+    }
+
+    .button6 {
+	background-color: coral;
+	color: black;
+    }
+
+    .button7 {
+	background-color: coral;
+	color: black;
+    }
+    
+    .button1:hover {
+	background-color: transparent;
+	color: #FFFF;
+    }
+
+    .button2:hover {
+	background-color: transparent;
+	color: #FFFF;
+    }
+
+    .button3:hover {
+	background-color: transparent;
+	color: #FFFF;
+    }
+
+    .button4:hover {
+	background-color: transparent;
+	color: #FFFF;
+    }
+
+    .button5:hover {
+	background-color: transparent;
+	color: #FFFF;
+    }
+
+    .button6:hover {
+	background-color: transparent;
+	color: #FFFF;
+    }
+
+    .button7:hover {
+	background-color: transparent;
+	color: #FFFF;
+    }
+    
+    .name:hover {
+	background-color: transparent;
+	color: #FFFF;
+    }
+    
+    .toolbar {
+	background-color: coral;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	
+    }
+
+    .title {
+	margin: auto;
+	background-color: coral;
+	
+	text-align: center;
+	vertical-align: middle;
+	width: 15%;
+	height: 2.5%;
+    }
+
+    .classes {
+    margin: auto;
+    position: relative;
+  
+	background-color: coral;
+	text-align: left;
+	width: 80%;
+    
+    }
+
+        .header {
+	margin: auto;
+	background-color: coral;
+	text-align: center;
+	width: 10%;
+
+    }
+
+        .text {
+	font-family: monospace;
+	
+	margin: auto;
+	background-color: coral;
+	text-align: left;
+	width: 80%;
+	text-indent: 35px;
+    }
+
+
+  </style>
+
+  </head>
+  
+     
+  <body style="background-color: #F8F0E3">
+    
+    <div class="toolbar">
+      <a href="" class="button name"> Joshua Lee </a>
+
+          <a href="../../../index.html" class="button button7"> Index </a>
+          <a href="../../../aboutme.html" class="button button1"> About Me </a>
+    <!-- <button class="button button1">About Me</button> -->
+    <a href="../../../importance.html" class="button button2"> Importance </a>
+    <!-- <button class="button button2">Importance</button> -->
+    <a href="../../../classes.html" class="button button3"> Classes </a>
+    <!-- <button class="button button3">Classes</button> -->
+    <a href="../../Projects/projects.html" class="button button4"> Projects </a>
+    <!-- <button class="button button4">Projects</button> -->
+    <a href="../../../whativelearned.html" class="button button5"> What I&apos;ve Learned </a> 
+    <a href="../../Essays/essays.html" class="button button6"> Essays </a>
+    </div>
+    <!-- <button class="button button5">What I've Learned</button> -->
+    
+    <div class="title">
+      <h1 style="font-family:monospace">Digital Portfolio</h1>
+      </div>
+
+    <div class="header">
+      <h2 style="font-family:monospace">Advanced Sorting Algorithms HW</h2>
+    </div>
+    <div class="title">
+      <h1 style="font-family:monospace">Merge Sort</h1>
+    </div>
+    <div class="text">
+      <h1>How it works</h1>
+      <h3>Merge sort, one of the most efficient sorting algorithms, uses the divide and conquer method recursively to function. Merge sort uses a form of the divide and conquer method where the sorting algorithm continuously splits an array, a collection of items of the same data type, into two equal subarrays until each subarray only has one item. Once the original array has been split into subarrays that only contain one item each, it has reached its most simple form and therefore sorted. The algorithm then merges the sorted subarrays forming bigger sorted subarrays. This process is repeated until the entire array has been merged to form a sorted array.</h3>
+      <h1>Time & Space Complexity</h1>
+      <h3>Merge sort is a very consistent sorting algorithm as it is able to sort any array size to its most simple form then recursively form a sorted array. This can be seen with its time complexity of O(n*log(n)). This applies to its best, average, and worst case scenarios as merge sort will have to split any array into halves continuously to reach its most simple form then merge them back together. The space complexity for merge sort is O(n) which is a big complexity in comparison to other sorting algorithms. This is due to the fact that merge sort makes copies of the original array when creating subarrays. These copies take up more space as they need to be stored, leading to a higher space complexity. </h3>
+    </div>
+    <div class="title">
+      <h1 style="font-family:monospace">Quick Sort</h1>
+    </div>
+    <div class="text">
+      <h1>How it works</h1>
+      <h3>Quick sort is another recursive function that is based on the divide and conquer algorithm. Quick sort uses a form of the divide and conquer method where the algorithm uses a pivot, a value that the array will be sorted around, to put all values less than the pivot to the left and all values greater than the pivot to the right. The algorithm can choose any value to be the pivot, but the last value of the array is typically the pivot. Once the pivot is determined, the array will be rearranged where all values less than the pivot will be moved to the left and split off into a subarray, and all values greater than the pivot will be moved to the right and split off into a subarray. This process is then repeated as new pivots will be decided within each subarray. This process will repeat until there are only subarrays containing only one element, its most simple form. Then, the sorted subarrays will be recursively put back together until a sorted array is formed. </h3>
+      <h1>Time & Space Complexity</h1>
+      <h3>Quick sort is not as consistent as merge sort but is typically more efficient and better space wise as well. This can be seen as quick sort has an average and best case time complexity of O(n*log(n)). However its worst case time complexity is O(n^2) due to poor pivot placement. This allows quick sort to be quicker than most sorting algorithms as they can avoid worst case time complexities by changing pivot placement. Another advantage of quick sort is the space complexity. Quick sort has a space complexity of O(n*Log(N) as it is an in-place algorithm. This allows quick sort to be more space efficient than merge sort as it doesn’t require any extra memory to copy subarrays. </h3>
+    </div>    
+    <div class="title">
+      <h1 style="font-family:monospace">Heap Sort</h1>
+    </div>
+    <div class="text">
+      <h1>How it works</h1>
+      <h3>Heap sort is a sorting algorithm that is different from the other two as it is not a recursive function based on the divide and conquer algorithm. Instead, the array is reorganized into a binary tree, a tree-type data structure that has a maximum of two children for each parent, by assigning the first value in the array to be the root. The root is the first node, an individual part of a larger data structure, which then has two values of the array become its children. The binary tree pattern is then continued with the remaining elements in the array. Then, the algorithm converts the binary tree structure into a max heap, a binary tree where the value in each node is greater than or equal to the values of the children of that node. This process is where the algorithm confirms whether the children of the root parental node is less than or equal to the parental nodes. If they aren’t then the values of the children nodes will be swapped. This process will be repeated until there are no more swaps needed and the root of the tree is the largest value in the array. This value will then be swapped with a value at the bottom of the heap placing it as the end of the array. The value that was swapped will now return back to its original spot through max heap conversion. This process will now place the second largest value of the array as the root. This process of formatting an array into a binary tree then converting it to max heap will be repeated until you have a sorted array. </h3>
+      <h1>Time & Space Complexity</h1>
+      <h3>Heap sort has a time complexity of O(n*log(n)) for best, average, and worst case scenarios. This consistent algorithm provides for a simple yet effective sorting algorithm. The space complexity of heap sort is 1 because it doesn’t use up any other space outside of the array itself. This allows for heap sort to be used when there is limited memory space available. </h3>
+    </div>
+    <div class="title">
+      <h1 style="font-family:monospace">Cross Comparison</h1>
+    </div>
+    <div class="text">
+      <h1>Time Complexity</h1>
+      <h3>Time complexity, the equation that quantifies the amount of time it takes an algorithm to run as a function of the length of the input, varies from algorithm to algorithm. In this case, quicksort has the overall fastest time complexity in comparison to merge sort and heap sort due to the smaller amount of instructions needed to be run to sort an array. However, for larger arrays or datasets, merge sort is more efficient and faster than quicksort due to its consistent time complexity.</h3>
+      <h1>Space Complexity</h1>
+      <h3>Space complexity, the total amount of memory space that is used by an algorithm or program including the space of input values for execution, also varies from algorithm to algorithm. In this case, heap sort is the best for space complexity as it doesn’t require the use of any external data structures and performs entirely internally. This isn not the case for merge and quick sort as they both require the use of external data structures. Merge sort has a higher space complexity than quick sort as it requires temporary arrays for every split in order to merge into sorted arrays. </h3>
+    </div>
+  </body>
+</html>
